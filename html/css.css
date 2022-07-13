@@ -1,0 +1,110 @@
+/* navbar */
+.container-fluid{
+    padding: 0;
+}
+.nav-bar{
+    background-color: transparent !important
+}
+.navbar-icon{
+    padding: 0.5rem 0.6rem;
+    border-radius: 20px;
+    border-color: #EF3F54 !important;
+    color: #EF3F54 !important;
+}
+
+.div-navbar-icon{
+    padding: 0;
+    display: flex;
+    border: transparent;
+    width: 100vw;
+}
+.navbar-icon{
+    margin-left: 15px;
+}
+.nav-bar-icon{
+    margin-left: 1vw;
+}
+.offcanvas-start{
+    width: 80%;
+}
+.btn-search{
+    color: #EF3F54;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 20px ;
+    position: relative;
+    font-size: 20px;
+    left: 40px;
+}
+.input-search{
+    padding: 0 0 0 45px;
+    border-radius: 15px ;
+    background-color: #F4F5F7;
+}
+
+.div-search{
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.btn-signIn{
+    border-radius: 20px !important;
+    width: 125px;
+}
+
+.larger{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.small{
+    display: flex;
+}
+.btn-search-small{
+    color: #EF3F54;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 20px ;
+}
+.style-font{
+    font-weight: 700;
+}
+
+
+
+
+/* slide */
+.carousel-item{
+    height: 33vw;
+}
+.bg-1{
+    background-image: url(213/Newfolder/Rectangle406.png);
+}
+.bg-2{
+    background-image: url(213/Newfolder/gameTile__JSP4l.jpg);
+}
+.bg-3{
+    background-image: url(213/Newfolder/gameTile__1ksAF.jpg);
+}
+.bg-4{
+    background-image: url(213/Newfolder/gameTile__2gwVk.jpg);
+}
+.bg-5{
+    background-image: url(213/Newfolder/gameTile__30EUT.jpg);
+}
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5{
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: border-box ;
+}
+.carousel-indicators button{
+    width: 300px !important;
+}
+.slide-border{
+    border-radius: 6px;
+}
